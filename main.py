@@ -139,7 +139,7 @@ def check_win():
             print('Игрок №2 победил!')
             main()
     if line_1[0] == line_2[1] == line_3[2] and line_1[0] != '-':
-        if line_1[1] == 'x':
+        if line_1[0] == 'x':
             print('Игрок №1 победил!')
             main()
         else:
